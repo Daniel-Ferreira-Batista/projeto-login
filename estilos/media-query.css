@@ -1,12 +1,13 @@
 /*
 Telas pequenas: até 600px
 Celular: de 600px até 768px
-Tablet: 768px até 922px
+Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Telas Grandes: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 922px) {
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #d3daff, #2e2e2e);
     }
@@ -27,6 +28,7 @@ Telas Grandes: acima de 1200px
     }
 }
 
+/*Desktop*/
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #d3daff, #2e2e2e);
